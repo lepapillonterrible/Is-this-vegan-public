@@ -1,0 +1,652 @@
+{
+  "definitely_not_vegan": [
+    {
+      "name": "milk",
+      "aliases": ["whole milk", "skim milk", "milk powder", "dried milk", "milk solids", "milk protein", "A2 milk", "นม", "นมวัว"],
+      "category": "dairy",
+      "exceptions": [
+        "coconut milk", "almond milk", "soy milk", "oat milk", "rice milk", "cashew milk",
+        "hemp milk", "macadamia milk", "pistachio milk", "pea milk", "flax milk",
+        "hazelnut milk", "walnut milk", "tiger nut milk", "golden milk", "milk thistle"
+      ]
+    },
+    {
+      "name": "butter",
+      "aliases": ["butterfat", "butter oil", "buttermilk", "anhydrous milk fat", "AMF", "เนย"],
+      "category": "dairy",
+      "exceptions": [
+        "peanut butter", "almond butter", "cashew butter", "apple butter", "cocoa butter",
+        "shea butter", "vegan butter", "plant butter", "sunflower butter", "soy nut butter",
+        "cookie butter", "pumpkin seed butter", "kokum butter", "mango butter", "illipe butter"
+      ]
+    },
+    {
+      "name": "cream",
+      "aliases": ["heavy cream", "light cream", "sour cream", "cream cheese", "whipping cream", "half-and-half", "ครีม"],
+      "category": "dairy",
+      "exceptions": [
+        "coconut cream", "cream of tartar", "vegan cream", "soda cream", "cream soda"
+      ]
+    },
+    {
+      "name": "cheese",
+      "aliases": ["parmesan", "cheddar", "mozzarella", "gouda", "brie", "feta", "ricotta", "cream cheese", "gruyere", "emmental", "ชีส"],
+      "category": "dairy",
+      "exceptions": [
+        "vegan cheese", "soy cheese", "cashew cheese", "almond cheese", "nutritional yeast cheese"
+      ]
+    },
+    {
+      "name": "whey",
+      "aliases": ["whey protein", "whey powder", "whey protein isolate", "whey protein concentrate", "sweet whey", "acid whey", "WPC", "WPI"],
+      "category": "dairy",
+      "exceptions": []
+    },
+    {
+      "name": "casein",
+      "aliases": ["caseinate", "sodium caseinate", "calcium caseinate", "potassium caseinate", "milk protein", "micellar casein"],
+      "category": "dairy",
+      "exceptions": []
+    },
+    {
+      "name": "lactose",
+      "aliases": ["milk sugar", "lactose monohydrate"],
+      "category": "dairy",
+      "exceptions": []
+    },
+    {
+      "name": "ghee",
+      "aliases": ["clarified butter", "เนยใส"],
+      "category": "dairy",
+      "exceptions": []
+    },
+    {
+      "name": "yogurt",
+      "aliases": ["yoghurt", "greek yogurt", "โยเกิร์ต"],
+      "category": "dairy",
+      "exceptions": [
+        "coconut yogurt", "almond yogurt", "soy yogurt", "cashew yogurt", "oat yogurt", "vegan yogurt"
+      ]
+    },
+    {
+      "name": "condensed milk",
+      "aliases": ["sweetened condensed milk", "evaporated milk", "condensed skim milk"],
+      "category": "dairy",
+      "exceptions": [
+        "coconut condensed milk", "oat condensed milk", "vegan condensed milk"
+      ]
+    },
+    {
+      "name": "milk fat",
+      "aliases": ["milkfat", "lactalbumin", "lactalbumen", "milk serum protein"],
+      "category": "dairy",
+      "exceptions": []
+    },
+    {
+      "name": "egg",
+      "aliases": ["eggs", "egg white", "egg yolk", "egg powder", "dried egg", "egg solids", "whole egg", "ไข่"],
+      "category": "eggs",
+      "exceptions": [
+        "eggplant", "vegan egg", "flax egg", "chia egg", "eggfruit", "JUST egg"
+      ]
+    },
+    {
+      "name": "albumin",
+      "aliases": ["albumen", "egg albumin", "ovalbumin"],
+      "category": "eggs",
+      "exceptions": []
+    },
+    {
+      "name": "mayonnaise",
+      "aliases": ["mayo"],
+      "category": "eggs",
+      "exceptions": [
+        "vegan mayonnaise", "vegan mayo", "egg-free mayonnaise", "plant-based mayo"
+      ]
+    },
+    {
+      "name": "lysozyme",
+      "aliases": ["E1105"],
+      "category": "eggs",
+      "exceptions": []
+    },
+    {
+      "name": "honey",
+      "aliases": ["น้ำผึ้ง"],
+      "category": "bee products",
+      "exceptions": [
+        "honeybush", "honeydew", "honeysuckle", "honeycomb cereal"
+      ]
+    },
+    {
+      "name": "beeswax",
+      "aliases": ["E901", "cera alba", "ขี้ผึ้ง"],
+      "category": "bee products",
+      "exceptions": []
+    },
+    {
+      "name": "royal jelly",
+      "aliases": ["นมผึ้ง"],
+      "category": "bee products",
+      "exceptions": []
+    },
+    {
+      "name": "propolis",
+      "aliases": [],
+      "category": "bee products",
+      "exceptions": []
+    },
+    {
+      "name": "bee pollen",
+      "aliases": [],
+      "category": "bee products",
+      "exceptions": []
+    },
+    {
+      "name": "gelatin",
+      "aliases": ["gelatine", "E441", "เจลาติน"],
+      "category": "animal protein",
+      "exceptions": []
+    },
+    {
+      "name": "collagen",
+      "aliases": ["hydrolyzed collagen", "collagen peptides", "marine collagen", "คอลลาเจน"],
+      "category": "animal protein",
+      "exceptions": []
+    },
+    {
+      "name": "lard",
+      "aliases": ["pig fat", "pork fat", "น้ำมันหมู"],
+      "category": "animal fat",
+      "exceptions": [
+        "collard greens"
+      ]
+    },
+    {
+      "name": "tallow",
+      "aliases": ["beef tallow", "beef fat", "rendered fat", "dripping", "beef dripping"],
+      "category": "animal fat",
+      "exceptions": []
+    },
+    {
+      "name": "suet",
+      "aliases": [],
+      "category": "animal fat",
+      "exceptions": []
+    },
+    {
+      "name": "animal fat",
+      "aliases": ["ไขมันสัตว์", "meat fat", "rendered animal fat"],
+      "category": "animal fat",
+      "exceptions": []
+    },
+    {
+      "name": "hydrolyzed animal protein",
+      "aliases": ["HAP", "hydrolyzed meat protein", "animal protein hydrolysate"],
+      "category": "animal protein",
+      "exceptions": []
+    },
+    {
+      "name": "meat extract",
+      "aliases": ["animal extract", "beef extract", "chicken extract", "meat paste"],
+      "category": "meat",
+      "exceptions": []
+    },
+    {
+      "name": "chicken",
+      "aliases": ["chicken broth", "chicken stock", "chicken fat", "chicken powder", "ไก่", "น้ำซุปไก่"],
+      "category": "meat",
+      "exceptions": [
+        "mock chicken", "chicken of the woods", "chickpea"
+      ]
+    },
+    {
+      "name": "turkey",
+      "aliases": ["turkey broth", "turkey stock", "turkey fat", "turkey powder", "gobbler"],
+      "category": "meat",
+      "exceptions": [
+        "mock turkey", "tofurky"
+      ]
+    },
+    {
+      "name": "duck",
+      "aliases": ["duck fat", "duck stock", "duck breast", "duck confit", "เป็ด"],
+      "category": "meat",
+      "exceptions": [
+        "mock duck", "vegan duck"
+      ]
+    },
+    {
+      "name": "goose",
+      "aliases": ["goose fat", "goose liver", "foie gras"],
+      "category": "meat",
+      "exceptions": []
+    },
+    {
+      "name": "beef",
+      "aliases": ["beef broth", "beef stock", "beef extract", "beef powder", "เนื้อวัว"],
+      "category": "meat",
+      "exceptions": [
+        "mock beef", "beefsteak tomato"
+      ]
+    },
+    {
+      "name": "pork",
+      "aliases": ["pork broth", "pork stock", "pork extract", "หมู"],
+      "category": "meat",
+      "exceptions": [
+        "mock pork"
+      ]
+    },
+    {
+      "name": "lamb",
+      "aliases": ["mutton", "เนื้อแกะ"],
+      "category": "meat",
+      "exceptions": [
+        "lamb's lettuce", "lambsquarters"
+      ]
+    },
+    {
+      "name": "veal",
+      "aliases": ["เนื้อลูกวัว"],
+      "category": "meat",
+      "exceptions": []
+    },
+    {
+      "name": "venison",
+      "aliases": ["deer meat", "game meat"],
+      "category": "meat",
+      "exceptions": []
+    },
+    {
+      "name": "rabbit",
+      "aliases": ["rabbit meat"],
+      "category": "meat",
+      "exceptions": []
+    },
+    {
+      "name": "fish",
+      "aliases": ["fish oil", "fish extract", "fish powder", "ปลา"],
+      "category": "seafood",
+      "exceptions": [
+        "mock fish", "vegan fish", "goldfish cracker", "silverfish"
+      ]
+    },
+    {
+      "name": "tuna",
+      "aliases": ["canned tuna", "tuna flakes", "ทูน่า"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan tuna"
+      ]
+    },
+    {
+      "name": "salmon",
+      "aliases": ["salmon oil", "smoked salmon", "แซลมอน"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan salmon"
+      ]
+    },
+    {
+      "name": "cod",
+      "aliases": ["cod liver oil", "cod fish"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "sardine",
+      "aliases": ["sardines", "pilchard"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "herring",
+      "aliases": ["pickled herring"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "mackerel",
+      "aliases": ["canned mackerel", "smoked mackerel", "ปลาทู"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "fish sauce",
+      "aliases": ["nam pla", "น้ำปลา", "pla ra", "ปลาร้า"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan fish sauce"
+      ]
+    },
+    {
+      "name": "oyster sauce",
+      "aliases": ["น้ำมันหอย", "ซอสหอยนางรม"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan oyster sauce", "mushroom oyster sauce"
+      ]
+    },
+    {
+      "name": "oyster",
+      "aliases": ["หอยนางรม"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan oyster sauce", "mushroom oyster sauce", "oyster mushroom", "oyster plant"
+      ]
+    },
+    {
+      "name": "mussel",
+      "aliases": ["mussels", "หอยแมลงภู่"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "clam",
+      "aliases": ["clams", "หอยลาย"],
+      "category": "seafood",
+      "exceptions": [
+        "clam-shaped"
+      ]
+    },
+    {
+      "name": "scallop",
+      "aliases": ["หอยเชลล์"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan scallop", "king oyster mushroom scallop"
+      ]
+    },
+    {
+      "name": "octopus",
+      "aliases": ["ปลาหมึกยักษ์"],
+      "category": "seafood",
+      "exceptions": [
+        "mock octopus", "vegan octopus"
+      ]
+    },
+    {
+      "name": "crayfish",
+      "aliases": ["crawfish", "crawdad"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "eel",
+      "aliases": ["unagi", "ปลาไหล"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "shrimp paste",
+      "aliases": ["กะปิ", "belacan", "terasi", "bagoong alamang", "nam prik pao"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan shrimp paste"
+      ]
+    },
+    {
+      "name": "shrimp",
+      "aliases": ["prawn", "กุ้ง"],
+      "category": "seafood",
+      "exceptions": [
+        "mock shrimp", "vegan shrimp", "shrimp plant"
+      ]
+    },
+    {
+      "name": "crab",
+      "aliases": ["surimi", "imitation crab", "ปู"],
+      "category": "seafood",
+      "exceptions": [
+        "crabapple", "mock crab", "vegan crab"
+      ]
+    },
+    {
+      "name": "lobster",
+      "aliases": ["กุ้งมังกร"],
+      "category": "seafood",
+      "exceptions": [
+        "lobster mushroom"
+      ]
+    },
+    {
+      "name": "squid",
+      "aliases": ["calamari", "ปลาหมึก"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan squid", "mock squid"
+      ]
+    },
+    {
+      "name": "anchovy",
+      "aliases": ["anchovies", "anchovy paste", "anchovy extract", "ปลาแอนโชวี่"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "caviar",
+      "aliases": ["fish roe", "roe", "tobiko", "ikura", "masago", "ไข่ปลา"],
+      "category": "seafood",
+      "exceptions": [
+        "vegan caviar", "seaweed caviar", "eggplant caviar"
+      ]
+    },
+    {
+      "name": "dried shrimp",
+      "aliases": ["กุ้งแห้ง"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "dried fish",
+      "aliases": ["ปลาแห้ง"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "cuttlefish",
+      "aliases": ["ปลาหมึกกระดอง"],
+      "category": "seafood",
+      "exceptions": []
+    },
+    {
+      "name": "pepsin",
+      "aliases": [],
+      "category": "animal enzyme",
+      "exceptions": []
+    },
+    {
+      "name": "rennet",
+      "aliases": ["animal rennet", "calf rennet"],
+      "category": "animal enzyme",
+      "exceptions": [
+        "vegetable rennet", "microbial rennet", "fermentation-produced chymosin", "FPC rennet"
+      ]
+    },
+    {
+      "name": "isinglass",
+      "aliases": [],
+      "category": "animal protein",
+      "exceptions": []
+    },
+    {
+      "name": "carmine",
+      "aliases": ["cochineal", "E120", "natural red 4", "crimson lake", "cochineal extract"],
+      "category": "insect",
+      "exceptions": []
+    },
+    {
+      "name": "shellac",
+      "aliases": ["E904", "confectioner's glaze", "pharmaceutical glaze", "resinous glaze", "lac resin"],
+      "category": "insect",
+      "exceptions": []
+    },
+    {
+      "name": "lanolin",
+      "aliases": ["wool grease", "wool wax", "E913"],
+      "category": "animal byproduct",
+      "exceptions": []
+    },
+    {
+      "name": "keratin",
+      "aliases": ["hydrolyzed keratin"],
+      "category": "animal protein",
+      "exceptions": [
+        "vegetable keratin", "phyto-keratin"
+      ]
+    },
+    {
+      "name": "elastin",
+      "aliases": ["hydrolyzed elastin"],
+      "category": "animal protein",
+      "exceptions": []
+    },
+    {
+      "name": "silk",
+      "aliases": ["silk powder", "silk amino acids", "sericin"],
+      "category": "insect",
+      "exceptions": [
+        "corn silk", "soy silk"
+      ]
+    },
+    {
+      "name": "bone char",
+      "aliases": ["bone charcoal", "animal charcoal", "E538"],
+      "category": "animal byproduct",
+      "exceptions": []
+    },
+    {
+      "name": "bone meal",
+      "aliases": ["bone powder", "E542", "bone phosphate"],
+      "category": "animal byproduct",
+      "exceptions": []
+    },
+    {
+      "name": "mink oil",
+      "aliases": [],
+      "category": "animal fat",
+      "exceptions": []
+    },
+    {
+      "name": "squalane",
+      "aliases": ["squalene"],
+      "category": "animal fat",
+      "exceptions": [
+        "plant squalane", "olive squalane", "sugarcane squalane", "phytosqualane"
+      ]
+    },
+    {
+      "name": "ambergris",
+      "aliases": ["grey amber", "ambre gris"],
+      "category": "animal byproduct",
+      "exceptions": []
+    },
+    {
+      "name": "civet",
+      "aliases": ["civet musk", "civetone"],
+      "category": "animal byproduct",
+      "exceptions": [
+        "civet coffee", "kopi luwak"
+      ]
+    },
+    {
+      "name": "castoreum",
+      "aliases": ["beaver extract", "natural raspberry flavor from beaver"],
+      "category": "animal byproduct",
+      "exceptions": []
+    }
+  ],
+  "ambiguous": [
+    {
+      "name": "lecithin",
+      "aliases": ["E322"],
+      "note": "Often soy-derived (vegan), but can be from eggs. Check source."
+    },
+    {
+      "name": "glycerin",
+      "aliases": ["glycerine", "glycerol", "E422"],
+      "note": "Can be plant-derived (vegan) or animal-derived. Source usually not specified."
+    },
+    {
+      "name": "stearic acid",
+      "aliases": ["E570", "stearate"],
+      "note": "Can be plant-derived (coconut, palm) or animal-derived (tallow)."
+    },
+    {
+      "name": "vitamin d3",
+      "aliases": ["cholecalciferol", "D3"],
+      "note": "Usually derived from lanolin (sheep wool), but vegan versions from lichen exist. Vitamin D2 (ergocalciferol) is always vegan."
+    },
+    {
+      "name": "omega-3",
+      "aliases": ["omega 3", "DHA", "EPA"],
+      "note": "Usually from fish oil, but algae-based vegan versions exist. Check for 'algae-derived'."
+    },
+    {
+      "name": "natural flavors",
+      "aliases": ["natural flavoring", "natural flavours", "natural flavour"],
+      "note": "Can be plant or animal-derived. Impossible to tell without contacting manufacturer."
+    },
+    {
+      "name": "mono and diglycerides",
+      "aliases": ["E471", "monoglycerides", "diglycerides", "glycerol monostearate"],
+      "note": "Can be plant or animal-derived. Common in bread and baked goods."
+    },
+    {
+      "name": "lactic acid",
+      "aliases": ["E270"],
+      "note": "Usually produced by bacterial fermentation (vegan), but can be animal-derived. Almost always vegan in practice."
+    },
+    {
+      "name": "vitamin A",
+      "aliases": ["retinol", "retinyl palmitate", "retinyl acetate"],
+      "note": "Can be from fish liver oil or synthetic (vegan). Beta-carotene-derived vitamin A is always vegan."
+    },
+    {
+      "name": "L-cysteine",
+      "aliases": ["E920", "cysteine"],
+      "note": "Often derived from human hair or duck feathers. Synthetic versions exist and are common in modern bread improvers."
+    },
+    {
+      "name": "sugar",
+      "aliases": ["refined sugar", "white sugar", "cane sugar"],
+      "note": "Some white cane sugar is filtered through bone char. Beet sugar, organic sugar, and unrefined sugars are always vegan."
+    },
+    {
+      "name": "palm oil",
+      "aliases": ["palm fat", "palm kernel oil", "น้ำมันปาล์ม"],
+      "note": "Technically vegan but controversial due to environmental impact and animal habitat destruction."
+    },
+    {
+      "name": "carrageenan",
+      "aliases": ["E407", "irish moss extract"],
+      "note": "Derived from seaweed (vegan), but can be processed with animal products. Considered vegan by most standards."
+    },
+    {
+      "name": "vitamin B12",
+      "aliases": ["cyanocobalamin", "methylcobalamin"],
+      "note": "Synthetic B12 is vegan. Some supplements may use animal-derived carriers. Fortified foods use synthetic B12 (vegan)."
+    },
+    {
+      "name": "iodine",
+      "aliases": ["potassium iodide"],
+      "note": "In supplements, sometimes derived from animal thyroid tissue. Iodized salt uses synthetic iodine (vegan)."
+    },
+    {
+      "name": "caprylic acid",
+      "aliases": ["capric acid", "E570", "octanoic acid"],
+      "note": "Can be derived from coconut/palm oil (vegan) or dairy fat (not vegan). Usually plant-derived in food products."
+    },
+    {
+      "name": "polysorbate 80",
+      "aliases": ["E433", "polysorbate 60", "E435"],
+      "note": "Usually vegan (synthetic from sorbitol), but the fatty acid component can be animal-derived."
+    },
+    {
+      "name": "magnesium stearate",
+      "aliases": ["E470b"],
+      "note": "Stearic acid component can be from animal fat or plant-derived. Often vegan but not guaranteed."
+    }
+  ]
+}

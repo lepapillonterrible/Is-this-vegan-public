@@ -1,0 +1,97 @@
+{
+    "TH": {
+        "regionName": "Thailand",
+        "risks": [
+            "fish sauce",
+            "shrimp paste",
+            "oyster sauce",
+            "dried shrimp",
+            "chicken powder"
+        ],
+        "dishes": {
+            "pad thai": {
+                "status": "RISKY",
+                "reason": "Traditionally made with fish sauce and dried shrimp. Ensure you ask for 'Jay' (vegan) preparation."
+            },
+            "som tum": {
+                "status": "RISKY",
+                "reason": "Papaya salad usually contains fish sauce and dried shrimp. Ask for 'Som Tum Thai' without shrimp/fish sauce, or 'Som Tum Jay'."
+            },
+            "green curry": {
+                "status": "RISKY",
+                "reason": "Curry paste often contains shrimp paste (kapi) and fish sauce."
+            },
+            "mango sticky rice": {
+                "status": "LIKELY_VEGAN",
+                "reason": "Coconut milk based, usually vegan. Verify no condensed milk was added."
+            }
+        }
+    },
+    "IN": {
+        "regionName": "India",
+        "risks": [
+            "ghee",
+            "clarified butter",
+            "paneer",
+            "cream",
+            "curd",
+            "honey"
+        ],
+        "dishes": {
+            "dal makhani": {
+                "status": "NOT_VEGAN",
+                "reason": "'Makhani' means buttery. This dish typically contains cream and butter/ghee."
+            },
+            "dal tadka": {
+                "status": "LIKELY_VEGAN",
+                "reason": "Yellow lentils tempered with spices. Usually oil-based, but ask if ghee was used."
+            },
+            "naan": {
+                "status": "RISKY",
+                "reason": "Dough often contains yogurt or milk, and is brushed with butter. Roti/Chapati is a safer vegan option."
+            },
+            "paneer": {
+                "status": "NOT_VEGAN",
+                "reason": "Fresh cheese."
+            }
+        }
+    },
+    "VN": {
+        "regionName": "Vietnam",
+        "risks": [
+            "fish sauce",
+            "nuoc mam",
+            "shrimp paste",
+            "dried shrimp"
+        ],
+        "dishes": {
+            "pho": {
+                "status": "RISKY",
+                "reason": "Broth is typically bone-based with fish sauce. Look for 'Pho Chay' (Vegetarian Pho)."
+            },
+            "banh mi": {
+                "status": "RISKY",
+                "reason": "May contain pâté (meat paste) and mayonnaise. Ask for 'Banh Mi Chay' without mayo."
+            }
+        }
+    },
+    "JP": {
+        "regionName": "Japan",
+        "risks": [
+            "dashi",
+            "bonito flakes",
+            "fish stock",
+            "mayonnaise"
+        ],
+        "dishes": {
+            "miso soup": {
+                "status": "RISKY",
+                "reason": "Traditional dashi stock is made from bonito (fish) flakes. Ask if it uses kombu (kelp) dashi."
+            },
+            "tempura": {
+                "status": "RISKY",
+                "reason": "Batter may contain eggs. Dipping sauce usually contains dashi (fish)."
+            }
+        }
+    }
+}

@@ -1,0 +1,961 @@
+{
+    "brands": [
+        {
+            "name": "Oatly",
+            "aliases": [
+                "Oatly!"
+            ],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "100% plant-based oat drink brand. All products are vegan.",
+            "website": "oatly.com"
+        },
+        {
+            "name": "Alpro",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "Mostly plant-based (soy, oat, almond). Some products may contain honey — check label.",
+            "website": "alpro.com"
+        },
+        {
+            "name": "Califia Farms",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Plant-based milks and creamers. Most products are vegan; check individual items.",
+            "website": "califiafarms.com"
+        },
+        {
+            "name": "Silk",
+            "aliases": [
+                "Silk Soymilk"
+            ],
+            "confidence": "mostly_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Plant-based milk brand. Most products are vegan; verify individual flavored variants.",
+            "website": "silk.com"
+        },
+        {
+            "name": "Ripple",
+            "aliases": [
+                "Ripple Foods"
+            ],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Pea protein-based milk and products. Fully plant-based.",
+            "website": "ripplefoods.com"
+        },
+        {
+            "name": "Minor Figures",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "Specialty oat milk brand, popular in coffee shops. Fully vegan.",
+            "website": "minorfigures.com"
+        },
+        {
+            "name": "Beyond Meat",
+            "aliases": [
+                "Beyond Burger",
+                "Beyond Sausage"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Plant-based meat brand. All products are vegan.",
+            "website": "beyondmeat.com"
+        },
+        {
+            "name": "Impossible Foods",
+            "aliases": [
+                "Impossible Burger",
+                "Impossible"
+            ],
+            "confidence": "mostly_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Most products are vegan. Some restaurant preparations may add non-vegan toppings — check context.",
+            "website": "impossiblefoods.com"
+        },
+        {
+            "name": "Quorn",
+            "aliases": [],
+            "confidence": "vegan_line",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Many Quorn products contain egg white or milk. Look specifically for their 'Vegan' labeled range.",
+            "website": "quorn.com"
+        },
+        {
+            "name": "Tofurky",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Most Tofurky products are vegan. Verify any deli products that may share facility with non-vegan items.",
+            "website": "tofurky.com"
+        },
+        {
+            "name": "Lightlife",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Plant-based meats. Most products are vegan; check Smart Dogs variants.",
+            "website": "lightlife.com"
+        },
+        {
+            "name": "MorningStar Farms",
+            "aliases": [
+                "Morningstar"
+            ],
+            "confidence": "vegan_line",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Many MorningStar products contain egg whites or dairy. Look for the explicit 'Vegan' label on packaging.",
+            "website": "morningstarfarms.com"
+        },
+        {
+            "name": "Gardein",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Most Gardein products are vegan; some contain egg whites. Always check the label.",
+            "website": "gardein.com"
+        },
+        {
+            "name": "OmniPork",
+            "aliases": [
+                "Omni Foods",
+                "Omni"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Asia-focused plant-based meat brand. All products are vegan.",
+            "website": "omnifoods.com"
+        },
+        {
+            "name": "THIS",
+            "aliases": [
+                "This Foods"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "UK-based plant-based meat brand. All products are vegan.",
+            "website": "thisfood.co.uk"
+        },
+        {
+            "name": "Violife",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "100% vegan cheese brand. No dairy, no nuts, no soy.",
+            "website": "violifefoods.com"
+        },
+        {
+            "name": "Daiya",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Fully plant-based cheese and dairy-free products.",
+            "website": "daiyafoods.com"
+        },
+        {
+            "name": "Miyoko's Creamery",
+            "aliases": [
+                "Miyoko's",
+                "Miyoko's Kitchen"
+            ],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Artisan plant-based cheese and butter. Fully vegan.",
+            "website": "miyokos.com"
+        },
+        {
+            "name": "JUST Egg",
+            "aliases": [
+                "Just Egg",
+                "Eat Just"
+            ],
+            "confidence": "fully_vegan",
+            "category": "egg_alternative",
+            "certifications": [],
+            "note": "Mung bean-based egg substitute. Fully plant-based.",
+            "website": "ju.st"
+        },
+        {
+            "name": "Oreo",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Classic Oreos have vegan ingredients but are made in facilities handling dairy. Most vegans consider the original variety acceptable. Check flavored variants individually.",
+            "website": "oreo.com"
+        },
+        {
+            "name": "Hippeas",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Chickpea puffs brand. All products are certified vegan.",
+            "website": "hippeas.com"
+        },
+        {
+            "name": "Hu Kitchen",
+            "aliases": [
+                "Hu Chocolate",
+                "Hu"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Paleo-friendly chocolate brand. All products are dairy-free and vegan.",
+            "website": "hukitchen.com"
+        },
+        {
+            "name": "Enjoy Life",
+            "aliases": [
+                "Enjoy Life Foods"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Allergen-free brand. All products are vegan and free from top 14 allergens.",
+            "website": "enjoylifefoods.com"
+        },
+        {
+            "name": "Justin's",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Nut butters and chocolate confections. Most are vegan; milk chocolate varieties are not.",
+            "website": "justins.com"
+        },
+        {
+            "name": "Larabar",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Date-based bars. Most varieties are vegan; check flavors with chocolate coating.",
+            "website": "larabar.com"
+        },
+        {
+            "name": "Pringles",
+            "aliases": [],
+            "confidence": "vegan_line",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Original and some flavors are vegan. Many flavors contain dairy (sour cream, cheese). Always check the specific flavor label.",
+            "website": "pringles.com"
+        },
+        {
+            "name": "Amy's Kitchen",
+            "aliases": [
+                "Amy's"
+            ],
+            "confidence": "vegan_line",
+            "category": "ready_meals",
+            "certifications": [],
+            "note": "Organic brand with both vegetarian and vegan options. Not all products are vegan — look for the 'Vegan' label on pack.",
+            "website": "amys.com"
+        },
+        {
+            "name": "Follow Your Heart",
+            "aliases": [
+                "Vegenaise"
+            ],
+            "confidence": "fully_vegan",
+            "category": "condiments",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Maker of Vegenaise. Fully vegan dressings and dairy-free products.",
+            "website": "followyourheart.com"
+        },
+        {
+            "name": "Kite Hill",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Almond-based cheese, yogurt, and cream cheese. Fully plant-based.",
+            "website": "kite-hill.com"
+        },
+        {
+            "name": "Sir Kensington's",
+            "aliases": [
+                "Sir Kensingtons"
+            ],
+            "confidence": "vegan_line",
+            "category": "condiments",
+            "certifications": [],
+            "note": "Condiment brand with vegan and non-vegan options. Their Fabanaise and vegan mayo range are vegan; classic mayo contains eggs.",
+            "website": "sirkensingtons.com"
+        },
+        {
+            "name": "e.l.f. Cosmetics",
+            "aliases": [
+                "elf Cosmetics",
+                "elf",
+                "e.l.f"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "PETA Certified Vegan",
+                "Cruelty-Free"
+            ],
+            "note": "100% vegan and cruelty-free cosmetics brand.",
+            "website": "elfcosmetics.com"
+        },
+        {
+            "name": "Urban Decay",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "PETA Certified"
+            ],
+            "note": "All Urban Decay products are vegan and cruelty-free.",
+            "website": "urbandecay.com"
+        },
+        {
+            "name": "The Body Shop",
+            "aliases": [],
+            "confidence": "vegan_line",
+            "category": "cosmetics",
+            "certifications": [
+                "Cruelty-Free International"
+            ],
+            "note": "Cruelty-free brand but not all products are vegan (some contain beeswax or lanolin). Look for the 'V' vegan symbol on the pack.",
+            "website": "thebodyshop.com"
+        },
+        {
+            "name": "Herbivore Botanicals",
+            "aliases": [
+                "Herbivore"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Clean beauty brand. All products are vegan, cruelty-free, and made with natural ingredients.",
+            "website": "herbivorebotanicals.com"
+        },
+        {
+            "name": "Pacifica Beauty",
+            "aliases": [
+                "Pacifica"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "PETA Certified Vegan"
+            ],
+            "note": "100% vegan and cruelty-free beauty brand.",
+            "website": "pacificabeauty.com"
+        },
+        {
+            "name": "Lush",
+            "aliases": [
+                "Lush Cosmetics",
+                "Lush Fresh Handmade Cosmetics"
+            ],
+            "confidence": "vegan_line",
+            "category": "cosmetics",
+            "certifications": [],
+            "note": "Fresh handmade cosmetics. Many products are vegan (marked with a V), but some contain honey, beeswax, or lanolin.",
+            "website": "lush.com"
+        },
+        {
+            "name": "Vitasoy",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Popular soy milk brand across Asia. Most products are plant-based; some contain honey. Common in Thailand, Hong Kong, and Australia.",
+            "website": "vitasoy.com"
+        },
+        {
+            "name": "V-Whole",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Thai vegan brand specialising in plant-based meats. All products are vegan.",
+            "website": "v-whole.com"
+        },
+        {
+            "name": "Let's Plant Meat",
+            "aliases": [
+                "Lets Plant Meat"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Thai plant-based meat brand available in 80+ supermarkets. All products are vegan.",
+            "website": "letsplantmeat.com"
+        },
+        {
+            "name": "Innocent",
+            "aliases": [
+                "Innocent Drinks"
+            ],
+            "confidence": "mostly_vegan",
+            "category": "beverages",
+            "certifications": [],
+            "note": "Smoothies and juices. Most are vegan; some vitamin-enriched products use lanolin-derived vitamin D3.",
+            "website": "innocentdrinks.co.uk"
+        },
+        {
+            "name": "Tropicana",
+            "aliases": [],
+            "confidence": "vegan_line",
+            "category": "beverages",
+            "certifications": [],
+            "note": "Juices are generally vegan but some 'heart healthy' lines contain omega-3 from fish oil. Always check the label.",
+            "website": "tropicana.com"
+        },
+        {
+            "name": "Nudie",
+            "aliases": [
+                "Nudie Snacks"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "UK plant-based snack brand. All products are vegan.",
+            "website": "nudiesnacks.co.uk"
+        },
+        {
+            "name": "Oumph!",
+            "aliases": [
+                "Oumph"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "Swedish soy-based meat alternative brand. All products are vegan.",
+            "website": "oumph.co.uk"
+        },
+        {
+            "name": "Fry's Family Foods",
+            "aliases": [
+                "Fry's",
+                "Frys Family Foods"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [
+                "Vegan Society"
+            ],
+            "note": "South African brand popular in Australia. 100% plant-based, non-GMO, and halal-certified. Widely available in Woolworths and Coles.",
+            "website": "fryfamilyfood.com"
+        },
+        {
+            "name": "Botanical Cuisine",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [
+                "Certified Organic",
+                "Certified Vegan"
+            ],
+            "note": "Melbourne-based brand. Certified organic, raw, vegan, and gluten-free. Specialises in cashew and macadamia-based cheeses and cultured butter.",
+            "website": "botanicalcuisine.com"
+        },
+        {
+            "name": "Funky Fields",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Australian plant-based brand by Danish innovator Naturli' Foods. Offers vegan butter spreads and plant-based mince. All products are 100% plant-based.",
+            "website": "funkyfields.com.au"
+        },
+        {
+            "name": "INIKA Organic",
+            "aliases": [
+                "INIKA"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "Vegan Society",
+                "Certified Organic",
+                "Cruelty-Free International"
+            ],
+            "note": "Australian cosmetics brand. World's first Plastic Neutral certified makeup brand. 100% vegan, certified organic, and cruelty-free.",
+            "website": "inikaorganic.com"
+        },
+        {
+            "name": "RAWW Cosmetics",
+            "aliases": [
+                "RAWW"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "Certified Vegan",
+                "Cruelty-Free"
+            ],
+            "note": "Australian-made cosmetics brand, certified vegan and cruelty-free. Uses superfood-inspired ingredients.",
+            "website": "rawwcosmetics.com.au"
+        },
+        {
+            "name": "SCOUT Cosmetics",
+            "aliases": [
+                "SCOUT"
+            ],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "Certified Vegan",
+                "COSMOS Certified",
+                "Australian Certified Organic"
+            ],
+            "note": "100% vegan, cruelty-free Australian cosmetics brand. COSMOS and Certified Organic certified.",
+            "website": "scoutcosmetics.com.au"
+        },
+        {
+            "name": "Lust Minerals",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "cosmetics",
+            "certifications": [
+                "Certified Vegan",
+                "Cruelty-Free"
+            ],
+            "note": "Australian mineral-based makeup brand. 100% vegan, cruelty-free, and made in Australia.",
+            "website": "lustminerals.com.au"
+        },
+        {
+            "name": "Noshu",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Australian low-sugar snack brand. Many products are vegan; check individual items as some contain dairy or eggs.",
+            "website": "noshu.com.au"
+        },
+        {
+            "name": "Vegie Delights",
+            "aliases": [
+                "Sanitarium Vegie Delights"
+            ],
+            "confidence": "vegan_line",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Australian vegetarian brand by Sanitarium. Some products are vegan, others contain egg or dairy. Look for the 'V' vegan icon on packaging.",
+            "website": "veggiedelights.com.au"
+        },
+        {
+            "name": "Pana Chocolate",
+            "aliases": [
+                "Pana Organic",
+                "Pana"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "Certified Organic",
+                "Vegan Society"
+            ],
+            "note": "Melbourne-based organic vegan chocolate brand. All products are certified organic and vegan.",
+            "website": "panaorganic.com.au"
+        },
+        {
+            "name": "Loving Earth",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "Certified Vegan",
+                "Certified Organic"
+            ],
+            "note": "Melbourne-based sustainable food brand. All products are fully vegan and certified organic.",
+            "website": "lovingearth.com"
+        },
+        {
+            "name": "Buona Vita",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "ready_meals",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "Australian plant-based pasta and gnocchi brand. All products are certified vegan.",
+            "website": "buonavita.com.au"
+        },
+        {
+            "name": "Green Common",
+            "aliases": [
+                "Green Common Grocery"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Hong Kong's pioneering plant-based grocery and restaurant brand. Parent company of OmniFoods. All retail products are 100% plant-based.",
+            "website": "greencommon.com"
+        },
+        {
+            "name": "Next Meats",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Japanese plant-based meat company. Produces vegan equivalents of yakiniku barbecue meats, gyudon, and egg substitutes. Non-GMO soy protein base.",
+            "website": "nextmeats.co.jp"
+        },
+        {
+            "name": "Starfield",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Leading Chinese plant protein brand offering vegan bacon, dairy-free cheese, and a wide range of plant-based products.",
+            "website": "starfield.com.cn"
+        },
+        {
+            "name": "Bangkok Bites",
+            "aliases": [
+                "Goodness Plant"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Thai snack brand (rebranded from Goodness Plant) offering vegan protein chips and jerky in authentic Thai flavours like Tom Yum and Pad Thai.",
+            "website": "bangkokbites.com"
+        },
+        {
+            "name": "Greendot",
+            "aliases": [
+                "Green Dot"
+            ],
+            "confidence": "fully_vegan",
+            "category": "ready_meals",
+            "certifications": [],
+            "note": "Singapore-based 100% plant-based fast-food chain and food brand. All menu items and retail products are vegan.",
+            "website": "greendot.com.sg"
+        },
+        {
+            "name": "Vegreen",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "South Korean plant-based meat brand. All products are vegan and tailored to Korean culinary traditions.",
+            "website": "vegreen.co.kr"
+        },
+        {
+            "name": "TheVeganKind",
+            "aliases": [
+                "The Vegan Kind"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "UK and Asia-distributed vegan subscription box brand. Curates fully vegan snack and lifestyle products.",
+            "website": "theVeganKind.com"
+        },
+        {
+            "name": "Alpha Foods",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [
+                "Certified Vegan"
+            ],
+            "note": "US brand with strong distribution in Southeast Asia. All products are certified vegan.",
+            "website": "eatalphafoods.com"
+        },
+        {
+            "name": "Wicked Kitchen",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "ready_meals",
+            "certifications": [],
+            "note": "Plant-based ready meal and ingredients brand. Available in Australia, SE Asia, and globally. All products are vegan.",
+            "website": "wickedkitchen.com"
+        },
+        {
+            "name": "Harvest Gourmet",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Nestlé's plant-based brand for Asia and Australia. All products in the Harvest Gourmet line are 100% plant-based.",
+            "website": "harvestgourmet.com"
+        },
+        {
+            "name": "OMISOM",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Japanese upcycled soy vegan brand known for zero-waste ingredients. All products are fully vegan.",
+            "website": "omisom.com"
+        },
+        {
+            "name": "Soylent",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "beverages",
+            "certifications": [],
+            "note": "Complete nutrition plant-based meal replacement drinks and bars. All products are vegan.",
+            "website": "soylent.com"
+        },
+        {
+            "name": "Ceres Organics",
+            "aliases": [],
+            "confidence": "mostly_vegan",
+            "category": "ready_meals",
+            "certifications": [
+                "Certified Organic"
+            ],
+            "note": "New Zealand organic brand, popular in Australia and Southeast Asia. Most products are vegan; check dairy-containing lines.",
+            "website": "ceresorganics.com"
+        },
+        {
+            "name": "Sweet William",
+            "aliases": [
+                "Sweet William Chocolate"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [
+                "ISO22000",
+                "GMO-Free"
+            ],
+            "note": "Australian chocolate brand, 20+ years old. All products are vegan-friendly with no animal or animal-derived ingredients, made in a dedicated dairy-free, gluten-free, nut-free facility. Available in Thailand. Not formally Vegan Society certified but brand explicitly confirms all products are vegan.",
+            "website": "sweetwilliam.com.au"
+        },
+        {
+            "name": "Swees Cheese",
+            "aliases": [
+                "Swees Plant Based Foods",
+                "Swees"
+            ],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Thai vegan cheese brand — operators of Thailand's first vegan cheese factory. Makes Swiss-style, cheddar, mozzarella, and cream cheese from organic soybeans. Not formally third-party certified but fully plant-based by design.",
+            "website": "sweescheese.com"
+        },
+        {
+            "name": "Natural Efe",
+            "aliases": [
+                "Natural Efe Phuket"
+            ],
+            "confidence": "mostly_vegan",
+            "category": "ready_meals",
+            "certifications": [],
+            "note": "Phuket-based organic and macrobiotic vegan health food store and cafe. Sells and produces vegan products including plant-based cheeses. Not a certified vegan brand — products are intended to be vegan but always verify individual items.",
+            "website": "macrobioticworld.com"
+        },
+        {
+            "name": "Nature's Charm",
+            "aliases": [
+                "Natures Charm"
+            ],
+            "confidence": "fully_vegan",
+            "category": "dairy_alternative",
+            "certifications": [],
+            "note": "Thai brand founded by sisters from a coconut milk manufacturing family. Specialises in coconut-based dairy alternatives: condensed coconut milk, coconut whipping cream, jackfruit products, and vegan sauces. Fully plant-based and cruelty-free by design. Not formally third-party certified but widely regarded as vegan. Available internationally.",
+            "website": "naturescharmveganproducts.com"
+        },
+        {
+            "name": "Mae Pranom",
+            "aliases": [
+                "Mae Pranom Brand"
+            ],
+            "confidence": "vegan_line",
+            "category": "condiments",
+            "certifications": [],
+            "note": "Traditional Thai condiment brand. Has vegetarian and vegan variants including a vegan chili paste and plant-based crispy chili with pea protein. Many standard products contain shrimp paste — only buy the green-label 'Vegetarian' variants.",
+            "website": "maepranom.com"
+        },
+        {
+            "name": "HappyLyfe",
+            "aliases": [
+                "Happy Lyfe"
+            ],
+            "confidence": "fully_vegan",
+            "category": "snacks",
+            "certifications": [],
+            "note": "Thai brand making handcrafted vegan truffles and confections from organic ingredients. Fully plant-based by design. Not formally certified.",
+            "website": "happylyfethailand.com"
+        },
+        {
+            "name": "Perfect Earth Foods",
+            "aliases": [
+                "Perfect Earth"
+            ],
+            "confidence": "fully_vegan",
+            "category": "ready_meals",
+            "certifications": [
+                "Certified Organic"
+            ],
+            "note": "Thai certified organic brand. Offers vegan rice pasta, instant rice noodles, and rice crackers. All products are plant-based and certified organic.",
+            "website": "perfectearthfoods.com"
+        },
+        {
+            "name": "Meat Avatar",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Thai plant-based meat startup making meat alternatives for Southeast Asian cuisine. All products are fully plant-based. Not formally certified.",
+            "website": "meatavatar.com"
+        },
+        {
+            "name": "Plantae",
+            "aliases": [
+                "Plantae Foods"
+            ],
+            "confidence": "fully_vegan",
+            "category": "meat_alternative",
+            "certifications": [],
+            "note": "Thai high-protein plant-based food brand. All products are vegan and designed for health-conscious consumers. Not formally certified.",
+            "website": "plantae.co.th"
+        },
+        {
+            "name": "Ecover",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Leaping Bunny"
+            ],
+            "note": "Belgian ecological cleaning brand, widely available in Europe and Asia. No animal-derived ingredients and Leaping Bunny cruelty-free certified. Brand confirms no animal by-products. No formal Vegan Society cert.",
+            "website": "ecover.com"
+        },
+        {
+            "name": "Method",
+            "aliases": [
+                "Method Products"
+            ],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Leaping Bunny",
+                "PETA Certified",
+                "Cruelty Free International"
+            ],
+            "note": "100% vegan and triple cruelty-free certified cleaning brand. All products are plant-derived with no animal ingredients. Brand explicitly confirms all products are vegan. No formal third-party vegan cert.",
+            "website": "methodproducts.com"
+        },
+        {
+            "name": "SOGANICS",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Leaping Bunny"
+            ],
+            "note": "100% vegan, plant-based household cleaning brand. Leaping Bunny certified since 2020. All ingredients are plant-based with no animal testing.",
+            "website": "soganics.com"
+        },
+        {
+            "name": "Seventh Generation",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "USDA Biobased",
+                "Leaping Bunny"
+            ],
+            "note": "US plant-based household cleaning brand, available globally including Asia. All products are vegan and cruelty-free, using plant-derived and mineral-based ingredients.",
+            "website": "seventhgeneration.com"
+        },
+        {
+            "name": "Attitude Living",
+            "aliases": [
+                "Attitude"
+            ],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "EWG Verified",
+                "Leaping Bunny",
+                "B Corp"
+            ],
+            "note": "Canadian eco-cleaning and personal care brand. All household products are vegan, EWG Verified, and Leaping Bunny certified. Also B Corp certified.",
+            "website": "attitudeliving.com"
+        },
+        {
+            "name": "Puracy",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Leaping Bunny"
+            ],
+            "note": "Plant-based cleaning and personal care brand. All products are 100% vegan and cruelty-free. Popular in Asia via online retail.",
+            "website": "puracy.com"
+        },
+        {
+            "name": "Kinn Living",
+            "aliases": [
+                "Kinn"
+            ],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Vegan Society",
+                "Leaping Bunny"
+            ],
+            "note": "UK eco-cleaning brand. All products are Vegan Society certified and Leaping Bunny cruelty-free. Uses refillable and concentrated formats.",
+            "website": "kinnliving.com"
+        },
+        {
+            "name": "Bio-D",
+            "aliases": [],
+            "confidence": "fully_vegan",
+            "category": "household",
+            "certifications": [
+                "Vegan Society",
+                "Cruelty-Free International"
+            ],
+            "note": "UK hypoallergenic cleaning brand. All products are Vegan Society certified and completely free from animal-derived ingredients.",
+            "website": "biodegradable.biz"
+        }
+    ]
+}

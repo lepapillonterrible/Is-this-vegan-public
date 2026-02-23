@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C76130684C1C03ACCB003B /* NonVeganIngredients.json in Resources */ = {isa = PBXBuildFile; fileRef = C0FE4E8F28C08831DBCB20EC /* NonVeganIngredients.json */; };
+		01A1B2C3D4E5F6A7B8C9D0E1 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7B8C9D0E1F2 /* ErrorHandling.swift */; };
+		01B2C3D4E5F6A7B8C9D0E1F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* SettingsView.swift */; };
+		01C3D4E5F6A7B8C9D0E1F2A3 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F6A7B8C9D0E1F2A3B4 /* PrivacyPolicyView.swift */; };
+		01C0N5E6F7A8B9C0D1E2F3A4 /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0N5E6F7A8B9C0D1E2F3A4B5 /* ConsentView.swift */; };
+		01D4E5F6A7B8C9D0E1F2A3B4 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A7B8C9D0E1F2A3B4C5 /* TermsView.swift */; };
+		02E962D0B7EE08D05B4579A1 /* LLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE554B75362BCC0D8D2158B3 /* LLMService.swift */; };
+		07419D04A1688D4C03F528BB /* IsThisVegan - APIUsageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D53CC24ACD5F8BC3784D94 /* IsThisVegan - APIUsageRecord.swift */; };
+		0970B6920BC12591BF3EF990 /* AnalysisPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DFF9E1A09CBBFA77FE4600 /* AnalysisPipeline.swift */; };
+		0CC8D44084E95804CE3F29FD /* CrowdSourceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2742A93AC9B67E7503F508C /* CrowdSourceService.swift */; };
+		105DACE2DAB128EB45BA4BA8 /* IsThisVegan - Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9BE6268876B0A1E7AB315 /* IsThisVegan - Config.swift */; };
+		11A774FDA5D787A7FE18169B /* IsThisVegan - ImagePickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C749D07BDC9A9DAF61A515 /* IsThisVegan - ImagePickerService.swift */; };
+		15DCCA5966F1A7AB5F7A6D4F /* IsThisVegan - ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827F692E11EE56564DCD693 /* IsThisVegan - ScanResult.swift */; };
+		2CF23C02874A6D22C247F429 /* RegionalRules.json in Resources */ = {isa = PBXBuildFile; fileRef = 829600866D0A94E6C5AD17A3 /* RegionalRules.json */; };
+		34628314CC2D8B067F1E34A4 /* IsThisVegan - VeganVerdict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C48C83E13F9B6D42712C4A /* IsThisVegan - VeganVerdict.swift */; };
+		364A4304FDBECDE3BA51BC8E /* UsageTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD58E678288D0FC4D865B9 /* UsageTracker.swift */; };
+		5022741294A36C702780B788 /* IsThisVegan - Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9BE6268876B0A1E7AB315 /* IsThisVegan - Config.swift */; };
+		60636A2A77917524891235B9 /* HeuristicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634335A072A97E4B40B873D7 /* HeuristicService.swift */; };
+		AB12CD34EF56AB12CD34EF56 /* VeganBrandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12CD34EF56AB12CD34EF57 /* VeganBrandService.swift */; };
+		AB12CD34EF56AB12CD34EF58 /* VeganBrands.json in Resources */ = {isa = PBXBuildFile; fileRef = AB12CD34EF56AB12CD34EF59 /* VeganBrands.json */; };
+		6387505942B34442B3F42148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23E1CF6104D866DF7E84737 /* Assets.xcassets */; };
+		640315DCAD6B652EDDD18B15 /* IsThisVegan - APIUsageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D53CC24ACD5F8BC3784D94 /* IsThisVegan - APIUsageRecord.swift */; };
+		646C81544C4B819A355960D0 /* IsThisVegan - IsThisVeganApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40C7A023E42F2D16FB2DB /* IsThisVegan - IsThisVeganApp.swift */; };
+		72E48DAAE3D84B38583AC692 /* IsThisVegan - OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60B96EBB5D8E4845204295 /* IsThisVegan - OCRService.swift */; };
+		76CBB1CAE7420B0FA8CAD981 /* IngredientDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B43A5D08E8BD7EBF05A3EC5 /* IngredientDatabase.swift */; };
+		853D736C1D7DA8B052D50266 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD90532008F5FBDE2CAA1BB /* CameraView.swift */; };
+		9624B10D6142EEF94E6812EB /* IsThisVegan - ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827F692E11EE56564DCD693 /* IsThisVegan - ScanResult.swift */; };
+		A06A25A54828B5E0F2DB0A4A /* IsThisVegan - WidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D776B7DCAE927B6FABFAE19 /* IsThisVegan - WidgetViews.swift */; };
+		A14CA6A8AE05860599658396 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EAEF95DD337C57A4AADDC8B /* Secrets.plist */; };
+		C37794C92FB0B51490BC7CF3 /* IsThisVegan - ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617FF5BC8474CF3FFB0BE750 /* IsThisVegan - ScanView.swift */; };
+		C7101C4FCF079412189216A9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5C3F1AC696CDEAFFE38A8 /* LocationService.swift */; };
+		D2CAF3EFD68F91358B3A360F /* IsThisVegan - IsThisVeganWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA8FBA44890320FF035FB6 /* IsThisVegan - IsThisVeganWidgetBundle.swift */; };
+		DD672B9A59EF54C81D8BDC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F39CA4AE1660D6A82921CE /* Assets.xcassets */; };
+		DE2B7077A30D9AC603A55264 /* IsThisVegan - ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92052929F928DF21A2E136 /* IsThisVegan - ResultView.swift */; };
+		DFC3715B5DF7E0A5508DB385 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16F6BAC63F276658E62749 /* ScannerViewModel.swift */; };
+		E2F0FF7AE2C299DFF11A6232 /* IsThisVegan - VeganVerdict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C48C83E13F9B6D42712C4A /* IsThisVegan - VeganVerdict.swift */; };
+		E4F48D7A8508B068348F2855 /* IsThisVegan - HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DCE618D11084B074E09601 /* IsThisVegan - HistoryView.swift */; };
+		E5959936B1B1BB9D91CE3558 /* IsThisVegan - IsThisVeganWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C5C71A3279E04D24E21EB /* IsThisVegan - IsThisVeganWidget.swift */; };
+		CC11DD22EE33FF44AA55BB66 /* IsThisVeganWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F78C5A5ED0686BEF5E153175 /* IsThisVeganWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F2CF5F427C93461077A1C851 /* IsThisVegan - ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643032EAB5781939FF4B772B /* IsThisVegan - ContentView.swift */; };
+		WI001APP000000000000001A /* IsThisVegan - WidgetIntents.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = WI001FILE0000000000000001 /* IsThisVegan - WidgetIntents.swift */; };
+		WI001WGT000000000000001B /* IsThisVegan - WidgetIntents.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = WI001FILE0000000000000001 /* IsThisVegan - WidgetIntents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974A66FCE24EDE8BE063431F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0751D95C711FB06123929F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8A14B8CC7219B90305CBD3;
+			remoteInfo = IsThisVeganWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B7696846BE6286E09D1AB0 /* IsThisVegan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsThisVegan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B43A5D08E8BD7EBF05A3EC5 /* IngredientDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDatabase.swift; sourceTree = "<group>"; };
+		14DFF9E1A09CBBFA77FE4600 /* AnalysisPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisPipeline.swift; sourceTree = "<group>"; };
+		445C5C71A3279E04D24E21EB /* IsThisVegan - IsThisVeganWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - IsThisVeganWidget.swift"; sourceTree = "<group>"; };
+		5D776B7DCAE927B6FABFAE19 /* IsThisVegan - WidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - WidgetViews.swift"; sourceTree = "<group>"; };
+		617FF5BC8474CF3FFB0BE750 /* IsThisVegan - ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - ScanView.swift"; sourceTree = "<group>"; };
+		634335A072A97E4B40B873D7 /* HeuristicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeuristicService.swift; sourceTree = "<group>"; };
+		AB12CD34EF56AB12CD34EF57 /* VeganBrandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganBrandService.swift; sourceTree = "<group>"; };
+		AB12CD34EF56AB12CD34EF59 /* VeganBrands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VeganBrands.json; sourceTree = "<group>"; };
+		643032EAB5781939FF4B772B /* IsThisVegan - ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - ContentView.swift"; sourceTree = "<group>"; };
+		6EAEF95DD337C57A4AADDC8B /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.plist; sourceTree = "<group>"; };
+		73BD58E678288D0FC4D865B9 /* UsageTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTracker.swift; sourceTree = "<group>"; };
+		829600866D0A94E6C5AD17A3 /* RegionalRules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RegionalRules.json; sourceTree = "<group>"; };
+		8A16F6BAC63F276658E62749 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		94C48C83E13F9B6D42712C4A /* IsThisVegan - VeganVerdict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - VeganVerdict.swift"; sourceTree = "<group>"; };
+		99D9BE6268876B0A1E7AB315 /* IsThisVegan - Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - Config.swift"; sourceTree = "<group>"; };
+		9EA6572A399A079EBDB3D88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1F39CA4AE1660D6A82921CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3C749D07BDC9A9DAF61A515 /* IsThisVegan - ImagePickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - ImagePickerService.swift"; sourceTree = "<group>"; };
+		A827F692E11EE56564DCD693 /* IsThisVegan - ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - ScanResult.swift"; sourceTree = "<group>"; };
+		BE554B75362BCC0D8D2158B3 /* LLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMService.swift; sourceTree = "<group>"; };
+		C0FE4E8F28C08831DBCB20EC /* NonVeganIngredients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NonVeganIngredients.json; sourceTree = "<group>"; };
+		C23E1CF6104D866DF7E84737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D53CC24ACD5F8BC3784D94 /* IsThisVegan - APIUsageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - APIUsageRecord.swift"; sourceTree = "<group>"; };
+		DE60B96EBB5D8E4845204295 /* IsThisVegan - OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - OCRService.swift"; sourceTree = "<group>"; };
+		E2742A93AC9B67E7503F508C /* CrowdSourceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdSourceService.swift; sourceTree = "<group>"; };
+		ED92052929F928DF21A2E136 /* IsThisVegan - ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - ResultView.swift"; sourceTree = "<group>"; };
+		EDF5C3F1AC696CDEAFFE38A8 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F1FA8FBA44890320FF035FB6 /* IsThisVegan - IsThisVeganWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - IsThisVeganWidgetBundle.swift"; sourceTree = "<group>"; };
+		F78C5A5ED0686BEF5E153175 /* IsThisVeganWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = IsThisVeganWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DCE618D11084B074E09601 /* IsThisVegan - HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - HistoryView.swift"; sourceTree = "<group>"; };
+		FCD40C7A023E42F2D16FB2DB /* IsThisVegan - IsThisVeganApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - IsThisVeganApp.swift"; sourceTree = "<group>"; };
+		FDD90532008F5FBDE2CAA1BB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FE56BA35863A559CF9F0FE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		B2C3D4E5F6A7B8C9D0E1F2A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C3D4E5F6A7B8C9D0E1F2A3B4 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		C0N5E6F7A8B9C0D1E2F3A4B5 /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		D4E5F6A7B8C9D0E1F2A3B4C5 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		WI001FILE0000000000000001 /* IsThisVegan - WidgetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsThisVegan - WidgetIntents.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1010E244D63E354ADE734279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B7696846BE6286E09D1AB0 /* IsThisVegan.app */,
+				F78C5A5ED0686BEF5E153175 /* IsThisVeganWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2473BCF680DA1C31DF7436E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8A16F6BAC63F276658E62749 /* ScannerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		33F5F9FD5F93DF5758280707 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C23E1CF6104D866DF7E84737 /* Assets.xcassets */,
+				FE56BA35863A559CF9F0FE6C /* Info.plist */,
+				99D9BE6268876B0A1E7AB315 /* IsThisVegan - Config.swift */,
+				FCD40C7A023E42F2D16FB2DB /* IsThisVegan - IsThisVeganApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3E47FBAF9931AD04DFAADDE5 = {
+			isa = PBXGroup;
+			children = (
+				33F5F9FD5F93DF5758280707 /* App */,
+				DE4B2D13B891269A007188FF /* Models */,
+				849D488E1CF81B55023C02BF /* Resources */,
+				84DBC80678A4D5C65F5254C7 /* Services */,
+				2473BCF680DA1C31DF7436E1 /* ViewModels */,
+				757637075E110A7DCDA37163 /* Views */,
+				694C62DD1D8E6334DC83EB9B /* Widget */,
+				A1F39CA4AE1660D6A82921CE /* Assets.xcassets */,
+				1010E244D63E354ADE734279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		694C62DD1D8E6334DC83EB9B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6572A399A079EBDB3D88A /* Info.plist */,
+				445C5C71A3279E04D24E21EB /* IsThisVegan - IsThisVeganWidget.swift */,
+				F1FA8FBA44890320FF035FB6 /* IsThisVegan - IsThisVeganWidgetBundle.swift */,
+				5D776B7DCAE927B6FABFAE19 /* IsThisVegan - WidgetViews.swift */,
+				WI001FILE0000000000000001 /* IsThisVegan - WidgetIntents.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		757637075E110A7DCDA37163 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD90532008F5FBDE2CAA1BB /* CameraView.swift */,
+				C0N5E6F7A8B9C0D1E2F3A4B5 /* ConsentView.swift */,
+				643032EAB5781939FF4B772B /* IsThisVegan - ContentView.swift */,
+				F7DCE618D11084B074E09601 /* IsThisVegan - HistoryView.swift */,
+				C3D4E5F6A7B8C9D0E1F2A3B4 /* PrivacyPolicyView.swift */,
+				ED92052929F928DF21A2E136 /* IsThisVegan - ResultView.swift */,
+				617FF5BC8474CF3FFB0BE750 /* IsThisVegan - ScanView.swift */,
+				B2C3D4E5F6A7B8C9D0E1F2A3 /* SettingsView.swift */,
+				D4E5F6A7B8C9D0E1F2A3B4C5 /* TermsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		849D488E1CF81B55023C02BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE4E8F28C08831DBCB20EC /* NonVeganIngredients.json */,
+				829600866D0A94E6C5AD17A3 /* RegionalRules.json */,
+				AB12CD34EF56AB12CD34EF59 /* VeganBrands.json */,
+				6EAEF95DD337C57A4AADDC8B /* Secrets.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84DBC80678A4D5C65F5254C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14DFF9E1A09CBBFA77FE4600 /* AnalysisPipeline.swift */,
+				E2742A93AC9B67E7503F508C /* CrowdSourceService.swift */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* ErrorHandling.swift */,
+				634335A072A97E4B40B873D7 /* HeuristicService.swift */,
+				AB12CD34EF56AB12CD34EF57 /* VeganBrandService.swift */,
+				0B43A5D08E8BD7EBF05A3EC5 /* IngredientDatabase.swift */,
+				A3C749D07BDC9A9DAF61A515 /* IsThisVegan - ImagePickerService.swift */,
+				DE60B96EBB5D8E4845204295 /* IsThisVegan - OCRService.swift */,
+				BE554B75362BCC0D8D2158B3 /* LLMService.swift */,
+				EDF5C3F1AC696CDEAFFE38A8 /* LocationService.swift */,
+				73BD58E678288D0FC4D865B9 /* UsageTracker.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE4B2D13B891269A007188FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8D53CC24ACD5F8BC3784D94 /* IsThisVegan - APIUsageRecord.swift */,
+				A827F692E11EE56564DCD693 /* IsThisVegan - ScanResult.swift */,
+				94C48C83E13F9B6D42712C4A /* IsThisVegan - VeganVerdict.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8A14B8CC7219B90305CBD3 /* IsThisVeganWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3255A9E4707E2637BAC94D6D /* Build configuration list for PBXNativeTarget "IsThisVeganWidget" */;
+			buildPhases = (
+				92F49F5D00DC217B0FAEA250 /* Sources */,
+				23B5ADB8ECF869A7A10D1716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsThisVeganWidget;
+			packageProductDependencies = (
+			);
+			productName = IsThisVeganWidget;
+			productReference = F78C5A5ED0686BEF5E153175 /* IsThisVeganWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA225DCE671D89C8B8FF4A24 /* IsThisVegan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3015EC6373EEE51A477CD5D5 /* Build configuration list for PBXNativeTarget "IsThisVegan" */;
+			buildPhases = (
+				E9243AAF85464DD7D857F27D /* Sources */,
+				BD0AAC905ED3DB0BB627F577 /* Resources */,
+				CC11DD22EE33FF44AA55BB77 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C13C5E8E6F8533AB282F4AC /* PBXTargetDependency */,
+			);
+			name = IsThisVegan;
+			packageProductDependencies = (
+			);
+			productName = IsThisVegan;
+			productReference = 06B7696846BE6286E09D1AB0 /* IsThisVegan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0751D95C711FB06123929F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9B8A14B8CC7219B90305CBD3 = {
+						DevelopmentTeam = H99A45HA22;
+					};
+					AA225DCE671D89C8B8FF4A24 = {
+						DevelopmentTeam = H99A45HA22;
+					};
+				};
+			};
+			buildConfigurationList = B2EC8C9D189F84F7CA000041 /* Build configuration list for PBXProject "IsThisVegan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3E47FBAF9931AD04DFAADDE5;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA225DCE671D89C8B8FF4A24 /* IsThisVegan */,
+				9B8A14B8CC7219B90305CBD3 /* IsThisVeganWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B5ADB8ECF869A7A10D1716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD672B9A59EF54C81D8BDC95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0AAC905ED3DB0BB627F577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6387505942B34442B3F42148 /* Assets.xcassets in Resources */,
+				00C76130684C1C03ACCB003B /* NonVeganIngredients.json in Resources */,
+				2CF23C02874A6D22C247F429 /* RegionalRules.json in Resources */,
+				AB12CD34EF56AB12CD34EF58 /* VeganBrands.json in Resources */,
+				A14CA6A8AE05860599658396 /* Secrets.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC11DD22EE33FF44AA55BB77 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC11DD22EE33FF44AA55BB66 /* IsThisVeganWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F49F5D00DC217B0FAEA250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07419D04A1688D4C03F528BB /* IsThisVegan - APIUsageRecord.swift in Sources */,
+				5022741294A36C702780B788 /* IsThisVegan - Config.swift in Sources */,
+				E5959936B1B1BB9D91CE3558 /* IsThisVegan - IsThisVeganWidget.swift in Sources */,
+				D2CAF3EFD68F91358B3A360F /* IsThisVegan - IsThisVeganWidgetBundle.swift in Sources */,
+				15DCCA5966F1A7AB5F7A6D4F /* IsThisVegan - ScanResult.swift in Sources */,
+				34628314CC2D8B067F1E34A4 /* IsThisVegan - VeganVerdict.swift in Sources */,
+				A06A25A54828B5E0F2DB0A4A /* IsThisVegan - WidgetViews.swift in Sources */,
+				WI001WGT000000000000001B /* IsThisVegan - WidgetIntents.swift in Sources (Widget) */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9243AAF85464DD7D857F27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0970B6920BC12591BF3EF990 /* AnalysisPipeline.swift in Sources */,
+				853D736C1D7DA8B052D50266 /* CameraView.swift in Sources */,
+				01C0N5E6F7A8B9C0D1E2F3A4 /* ConsentView.swift in Sources */,
+				01A1B2C3D4E5F6A7B8C9D0E1 /* ErrorHandling.swift in Sources */,
+				01B2C3D4E5F6A7B8C9D0E1F2 /* SettingsView.swift in Sources */,
+				01C3D4E5F6A7B8C9D0E1F2A3 /* PrivacyPolicyView.swift in Sources */,
+				01D4E5F6A7B8C9D0E1F2A3B4 /* TermsView.swift in Sources */,
+				0CC8D44084E95804CE3F29FD /* CrowdSourceService.swift in Sources */,
+				60636A2A77917524891235B9 /* HeuristicService.swift in Sources */,
+				AB12CD34EF56AB12CD34EF56 /* VeganBrandService.swift in Sources */,
+				76CBB1CAE7420B0FA8CAD981 /* IngredientDatabase.swift in Sources */,
+				640315DCAD6B652EDDD18B15 /* IsThisVegan - APIUsageRecord.swift in Sources */,
+				105DACE2DAB128EB45BA4BA8 /* IsThisVegan - Config.swift in Sources */,
+				F2CF5F427C93461077A1C851 /* IsThisVegan - ContentView.swift in Sources */,
+				E4F48D7A8508B068348F2855 /* IsThisVegan - HistoryView.swift in Sources */,
+				11A774FDA5D787A7FE18169B /* IsThisVegan - ImagePickerService.swift in Sources */,
+				646C81544C4B819A355960D0 /* IsThisVegan - IsThisVeganApp.swift in Sources */,
+				72E48DAAE3D84B38583AC692 /* IsThisVegan - OCRService.swift in Sources */,
+				DE2B7077A30D9AC603A55264 /* IsThisVegan - ResultView.swift in Sources */,
+				9624B10D6142EEF94E6812EB /* IsThisVegan - ScanResult.swift in Sources */,
+				C37794C92FB0B51490BC7CF3 /* IsThisVegan - ScanView.swift in Sources */,
+				E2F0FF7AE2C299DFF11A6232 /* IsThisVegan - VeganVerdict.swift in Sources */,
+				02E962D0B7EE08D05B4579A1 /* LLMService.swift in Sources */,
+				C7101C4FCF079412189216A9 /* LocationService.swift in Sources */,
+				DFC3715B5DF7E0A5508DB385 /* ScannerViewModel.swift in Sources */,
+				364A4304FDBECDE3BA51BC8E /* UsageTracker.swift in Sources */,
+				WI001APP000000000000001A /* IsThisVegan - WidgetIntents.swift in Sources (App) */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C13C5E8E6F8533AB282F4AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B8A14B8CC7219B90305CBD3 /* IsThisVeganWidget */;
+			targetProxy = 974A66FCE24EDE8BE063431F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2400CFA153F7462B49F7B4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IsThisVegan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsThisVegan.com;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26C2828B03B7D25A2AB7A785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H99A45HA22;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+		52FAF48929DDB1ABDE62BE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IsThisVegan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsThisVegan.com;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676DBE3239C1754B0C45CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IsThisVeganWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsThisVegan.com.Widget;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7FD020D274B7EC8EB584CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IsThisVeganWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IsThisVegan.com.Widget;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2CE3B47D03B77AFDFB41D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H99A45HA22;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3015EC6373EEE51A477CD5D5 /* Build configuration list for PBXNativeTarget "IsThisVegan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FAF48929DDB1ABDE62BE59 /* Debug */,
+				2400CFA153F7462B49F7B4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3255A9E4707E2637BAC94D6D /* Build configuration list for PBXNativeTarget "IsThisVeganWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676DBE3239C1754B0C45CD32 /* Debug */,
+				DF7FD020D274B7EC8EB584CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2EC8C9D189F84F7CA000041 /* Build configuration list for PBXProject "IsThisVegan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CE3B47D03B77AFDFB41D25 /* Debug */,
+				26C2828B03B7D25A2AB7A785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0751D95C711FB06123929F /* Project object */;
+}
